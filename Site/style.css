@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+a:-webkit-any-link{
+  text-decoration:none !important;
+  }
+.section-landing {
+  width: 100%;
+  min-height: 55em;
+  background: url("bg1.png") no-repeat center center/cover;
+}
+.section-join {
+  background-color: darkorange;
+  color: white;
+}
+.content {
+  padding-top: 15rem;
+
+  padding-left: 6rem !important;
+  color: white;
+}
+h1 {
+  font-size: 60px !important;
+  font-family: "PT Serif", sans-serif;
+}
+.accent {
+  font-size: 70px;
+  color: darkorange;
+}
+li {
+  font-family: "Raleway", sans-serif;
+}
+.join-content {
+  /*padding-left: 33% !important;*/
+  font-family: "Roboto";
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.church {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 3rem;
+  width: auto;
+}
+#about-img {
+  height: 20rem;
+  width: auto;
+}
+.about-content {
+  font-family: "Roboto", sans-serif;
+  padding-top: 6rem;
+  /*margin-bottom: -6rem;*/
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.about-content button {
+  background-color: darkorange; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  font-family: "Raleway", sans-serif;
+}
+.about-content button:hover {
+  background-color: #e87f06;
+}
+.overline {
+  height: 0.5rem;
+  background-color: darkorange;
+}
+footer {
+  background-color: #212529;
+  margin: 0;
+}
+.footer-content {
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer-icons {
+  color: white;
+  font-size: 2rem;
+}
+i {
+  color: white;
+  padding-right: 0.5rem;
+}
